@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "matrix-blocks",
+	"version": "${version}",
+	"name": "Matrix Blocks",
+	"description": "This is a mod that add Matrix Blocks to your Minecraft game. Thanks to PixilartDude for the Matrix Block image.",
+	"authors": [
+		"okcoder1"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/matrix-blocks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.okcoder1.matrixblocks.MatrixBlocks"
+		],
+		"client": [
+			"com.okcoder1.matrixblocks.MatrixBlocksClient"
+		]
+	},
+	"mixins": [
+		"matrix-blocks.mixins.json",
+		{
+			"config": "matrix-blocks.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

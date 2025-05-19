@@ -1,0 +1,10 @@
+{
+  "itemGroup.matrix_blocks": "Matrix Blocks",
+  "block.matrix-blocks.matrix_block": "Matrix Block",
+  "block.matrix-blocks.fading_matrix_block": "Fading Matrix Block",
+  "block.matrix-blocks.matrix_slab": "Matrix Slab",
+  "block.matrix-blocks.fading_matrix_slab": "Fading Matrix Slab",
+  "block.matrix-blocks.matrix_stairs": "Matrix Stairs",
+  "block.matrix-blocks.fading_matrix_stairs": "Fading Matrix Stairs",
+  "block.matrix-blocks.matrix_button": "Matrix Button"
+}

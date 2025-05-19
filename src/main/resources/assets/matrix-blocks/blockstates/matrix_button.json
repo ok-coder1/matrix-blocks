@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "matrix-blocks:block/matrix_button" }
+    }
+}

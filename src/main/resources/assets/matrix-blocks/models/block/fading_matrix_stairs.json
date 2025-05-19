@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "all": "matrix-blocks:block/fading_matrix_stairs"
+  }
+}

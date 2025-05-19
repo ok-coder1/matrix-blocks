@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "matrix-blocks:block/matrix_block"
+  }
+}

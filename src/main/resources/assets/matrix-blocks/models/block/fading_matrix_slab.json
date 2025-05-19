@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "all": "matrix-blocks:block/fading_matrix_slab"
+  }
+}

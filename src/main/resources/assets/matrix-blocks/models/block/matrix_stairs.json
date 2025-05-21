@@ -1,36 +1,35 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "minecraft:block/slab",
+	"parent": "minecraft:block/stairs",
 	"textures": {
-		"0": "matrix-blocks:item/matrix_slab",
-		"particle": "matrix-blocks:item/matrix_slab"
+		"0": "matrix-blocks:item/matrix_stairs",
+		"particle": "matrix-blocks:item/matrix_stairs"
 	},
 	"elements": [
 		{
-			"from": [-1, 0, 0],
+			"from": [0, 0, 0],
 			"to": [16, 8, 16],
 			"faces": {
-				"north": {"uv": [0, 0, 16, 8], "texture": "#0"},
-				"east": {"uv": [0, 0, 16, 8], "texture": "#0"},
-				"south": {"uv": [0, 0, 16, 8], "texture": "#0"},
-				"west": {"uv": [0, 0, 16, 8], "texture": "#0"},
-				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#0"},
-				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#0"}
+				"north": {"uv": [0, 0, 16, 7.8], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 7.8], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 7.8], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 7.8], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 15.45], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 15.5], "texture": "#0"}
 			}
 		},
 		{
-			"from": [-1, 8, 0],
-			"to": [16, 17, 8],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 16, 0]},
+			"from": [0, 8, 0],
+			"to": [16, 16, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 16, 8]},
 			"faces": {
-				"north": {"uv": [0, 0, 16, 9], "texture": "#0"},
-				"east": {"uv": [0.65333, 0, 8.65333, 9], "texture": "#0"},
-				"south": {"uv": [0, 0, 16, 9], "texture": "#0"},
-				"west": {"uv": [1, 0, 9, 9], "texture": "#0"},
-				"up": {"uv": [0, 0, 16, 8], "rotation": 180, "texture": "#0"},
-				"down": {"uv": [0, 0, 16, 8], "rotation": 180, "texture": "#0"}
+				"north": {"uv": [0, 0, 16, 7.8], "texture": "#0"},
+				"east": {"uv": [0, 0, 9.1, 8.8], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 8.8], "texture": "#0"},
+				"west": {"uv": [0, 0, 9.1, 7.8], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 9], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 9], "texture": "#0"}
 			}
 		}
-	],
-	"display": {}
+	]
 }

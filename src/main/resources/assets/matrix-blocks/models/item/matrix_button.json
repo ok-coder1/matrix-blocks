@@ -1,3 +1,29 @@
 {
-  "parent": "matrix-blocks:block/matrix_button"
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/button",
+	"textures": {
+		"0": "matrix-blocks:item/matrix_button",
+		"particle": "matrix-blocks:item/matrix_button"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 6],
+			"to": [11, 2, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 9]},
+			"faces": {
+				"north": {"uv": [6.21875, 12.25, 12.21875, 14.25], "texture": "#0"},
+				"east": {"uv": [1.21875, 13.5, 4.21875, 15.5], "texture": "#0"},
+				"south": {"uv": [8, 0, 14, 2], "texture": "#0"},
+				"west": {"uv": [0.90625, 7.03125, 3.90625, 9.03125], "texture": "#0"},
+				"up": {"uv": [11.75, 6.125, 14.75, 12.125], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [3.625, 1.375, 6.625, 7.375], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 8.75, 0],
+			"scale": [0.78, 1.07, 0.37]
+		}
+	}
 }

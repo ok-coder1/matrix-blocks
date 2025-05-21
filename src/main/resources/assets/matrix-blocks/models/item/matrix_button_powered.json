@@ -8,7 +8,7 @@
 	"elements": [
 		{
 			"from": [5, 0, 6],
-			"to": [11, 2, 10],
+			"to": [11, 1, 10],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 9]},
 			"faces": {
 				"north": {"uv": [6.21875, 12.25, 12.21875, 14.25], "texture": "#0"},
@@ -19,5 +19,11 @@
 				"down": {"uv": [3.625, 1.375, 6.625, 7.375], "rotation": 90, "texture": "#0"}
 			}
 		}
-	]
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 8.75, 0],
+			"scale": [0.78, 1.07, 0.37]
+		}
+	}
 }

@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "matrix-blocks:block/matrix_stairs" }
+      "": { "model": "matrix-blocks:block/matrix_stairs" }
     }
 }

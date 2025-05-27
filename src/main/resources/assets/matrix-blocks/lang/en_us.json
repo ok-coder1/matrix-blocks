@@ -10,5 +10,5 @@
   "block.matrix-blocks.matrix_pressure_plate": "Matrix Pressure Plate",
   "block.matrix-blocks.fading_matrix_pressure_plate": "Fading Matrix Pressure Plate",
   "block.matrix-blocks.matrix_fence": "Matrix Fence",
-  "block.matrix-blocks.matrix_fence_fate": "Matrix Fence Gate"
+  "block.matrix-blocks.matrix_fence_gate": "Matrix Fence Gate"
 }

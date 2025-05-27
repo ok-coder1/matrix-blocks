@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/button",
 	"textures": {
-		"0": "matrix-blocks:item/matrix_button",
-		"particle": "matrix-blocks:item/matrix_button"
+		"0": "matrix-blocks:block/matrix_button",
+		"particle": "matrix-blocks:block/matrix_button"
 	},
 	"elements": [
 		{
@@ -19,5 +19,11 @@
 				"down": {"uv": [3.625, 1.375, 6.625, 7.375], "rotation": 90, "texture": "#0"}
 			}
 		}
-	]
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 8.75, 0],
+			"scale": [0.78, 1.07, 0.37]
+		}
+	}
 }

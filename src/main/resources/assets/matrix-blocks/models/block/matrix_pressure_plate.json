@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/pressure_plate_up",
+	"textures": {
+		"0": "matrix-blocks:block/matrix_pressure_plate",
+		"particle": "matrix-blocks:block/matrix_pressure_plate"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 1],
+			"to": [15, 1, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 9]},
+			"faces": {
+				"north": {"uv": [0.4, 0, 15.4, 1], "texture": "#0"},
+				"east": {"uv": [0.25333, 0.05333, 15.25333, 1.05333], "texture": "#0"},
+				"south": {"uv": [0.34667, 0.05333, 15.34667, 1.05333], "texture": "#0"},
+				"west": {"uv": [0.34667, 0, 15.34667, 1], "texture": "#0"},
+				"up": {"uv": [0.25333, 0, 15.25333, 15], "texture": "#0"},
+				"down": {"uv": [0.4, 0.25333, 15.4, 15.25333], "texture": "#0"}
+			}
+		}
+	]
+}

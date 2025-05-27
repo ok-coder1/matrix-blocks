@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/slab",
 	"textures": {
-		"0": "matrix-blocks:item/matrix_slab",
-		"particle": "matrix-blocks:item/matrix_slab"
+		"0": "matrix-blocks:block/matrix_slab",
+		"particle": "matrix-blocks:block/matrix_slab"
 	},
 	"elements": [
 		{

@@ -2,7 +2,6 @@ package com.okcoder1.matrixblocks;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
-import net.minecraft.block.BlockSetType;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -69,8 +68,19 @@ public class ModBlocks {
     );
 
     public static final Block MATRIX_BUTTON = register(
-            new ButtonBlock(BlockSetType.IRON, 15, FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)),
+            new ButtonBlock(BlockSetType.COPPER, 15, FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK)),
             "matrix_button",
+            true
+    );
+
+    public static final Block MATRIX_PRESSURE_PLATE = register(
+            new PressurePlateBlock(BlockSetType.COPPER, AbstractBlock.Settings.create().sounds(BlockSoundGroup.ANCIENT_DEBRIS)),
+            "matrix_pressure_plate",
+            true
+    );
+    public static final Block FADING_MATRIX_PRESSURE_PLATE = register(
+            new PressurePlateBlock(BlockSetType.COPPER, AbstractBlock.Settings.create().sounds(BlockSoundGroup.ANCIENT_DEBRIS)),
+            "fading_matrix_pressure_plate",
             true
     );
 
@@ -84,6 +94,8 @@ public class ModBlocks {
             itemGroup.add(ModBlocks.MATRIX_SLAB);
             itemGroup.add(ModBlocks.FADING_MATRIX_SLAB);
             itemGroup.add(ModBlocks.MATRIX_BUTTON);
+            itemGroup.add(ModBlocks.MATRIX_PRESSURE_PLATE);
+            itemGroup.add(ModBlocks.FADING_MATRIX_PRESSURE_PLATE);
         });
     }
 }

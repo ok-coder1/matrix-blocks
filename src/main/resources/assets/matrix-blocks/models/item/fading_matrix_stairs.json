@@ -1,3 +1,67 @@
 {
-  "parent": "matrix-blocks:block/fading_matrix_stairs"
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"0": "matrix-blocks:item/fading_matrix_stairs",
+		"particle": "matrix-blocks:item/fading_matrix_stairs"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 8, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 16, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#0"},
+				"south": {"uv": [0, 0, 8, 8], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 8], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 8], "rotation": 270, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 1.75, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 1.75, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -65, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 125, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [0, 120, 0],
+			"translation": [0, 0.25, 0],
+			"scale": [0.8, 0.75, 0.6]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 0, -8]
+		}
+	}
 }

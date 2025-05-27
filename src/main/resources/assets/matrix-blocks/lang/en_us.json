@@ -8,5 +8,7 @@
   "block.matrix-blocks.fading_matrix_stairs": "Fading Matrix Stairs",
   "block.matrix-blocks.matrix_button": "Matrix Button",
   "block.matrix-blocks.matrix_pressure_plate": "Matrix Pressure Plate",
-  "block.matrix-blocks.fading_matrix_pressure_plate": "Fading Matrix Pressure Plate"
+  "block.matrix-blocks.fading_matrix_pressure_plate": "Fading Matrix Pressure Plate",
+  "block.matrix-blocks.matrix_fence": "Matrix Fence",
+  "block.matrix-blocks.matrix_fence_fate": "Matrix Fence Gate"
 }

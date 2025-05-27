@@ -84,6 +84,17 @@ public class ModBlocks {
             true
     );
 
+    public static final Block MATRIX_FENCE = register(
+            new FenceBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.DEEPSLATE)),
+            "matrix_fence",
+            true
+    );
+    public static final Block MATRIX_FENCE_GATE = register(
+            new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().sounds(BlockSoundGroup.DEEPSLATE)),
+            "matrix_fence_gate",
+            true
+    );
+
     public static void initialize() {
         Registry.register(Registries.ITEM_GROUP, CUSTOM_ITEM_GROUP_KEY, CUSTOM_ITEM_GROUP);
         ItemGroupEvents.modifyEntriesEvent(CUSTOM_ITEM_GROUP_KEY).register(itemGroup -> {
@@ -96,6 +107,8 @@ public class ModBlocks {
             itemGroup.add(ModBlocks.MATRIX_BUTTON);
             itemGroup.add(ModBlocks.MATRIX_PRESSURE_PLATE);
             itemGroup.add(ModBlocks.FADING_MATRIX_PRESSURE_PLATE);
+            itemGroup.add(ModBlocks.MATRIX_FENCE);
+            itemGroup.add(ModBlocks.MATRIX_FENCE_GATE);
         });
     }
 }

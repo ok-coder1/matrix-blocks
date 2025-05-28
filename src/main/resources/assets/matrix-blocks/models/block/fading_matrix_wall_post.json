@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template_wall_post",
+    "textures": {
+      "wall": "matrix-blocks:block/fading_matrix_block"
+    }
+  }

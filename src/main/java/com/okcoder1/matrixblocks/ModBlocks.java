@@ -95,6 +95,28 @@ public class ModBlocks {
             true
     );
 
+    public static final Block MATRIX_WALL = register(
+            new WallBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.NETHER_BRICKS)),
+            "matrix_wall",
+            true
+    );
+    public static final Block FADING_MATRIX_WALL = register(
+            new WallBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.CORAL)),
+            "fading_matrix_wall",
+            true
+    );
+
+    public static final Block MATRIX_DOOR = register(
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create()),
+            "matrix_door",
+            true
+    );
+    public static final Block FADING_MATRIX_DOOR = register(
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create()),
+            "fading_matrix_door",
+            true
+    );
+
     public static void initialize() {
         Registry.register(Registries.ITEM_GROUP, CUSTOM_ITEM_GROUP_KEY, CUSTOM_ITEM_GROUP);
         ItemGroupEvents.modifyEntriesEvent(CUSTOM_ITEM_GROUP_KEY).register(itemGroup -> {
@@ -109,6 +131,10 @@ public class ModBlocks {
             itemGroup.add(ModBlocks.FADING_MATRIX_PRESSURE_PLATE);
             itemGroup.add(ModBlocks.MATRIX_FENCE);
             itemGroup.add(ModBlocks.MATRIX_FENCE_GATE);
+            itemGroup.add(ModBlocks.MATRIX_WALL);
+            itemGroup.add(ModBlocks.FADING_MATRIX_WALL);
+            itemGroup.add(ModBlocks.MATRIX_DOOR);
+            itemGroup.add(ModBlocks.FADING_MATRIX_DOOR);
         });
     }
 }

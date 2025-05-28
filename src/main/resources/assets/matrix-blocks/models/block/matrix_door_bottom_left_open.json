@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/door_bottom_left_open",
+    "textures": {
+      "bottom": "matrix-blocks:block/matrix_block",
+      "top": "matrix-blocks:block/matrix_block"
+    }
+  }

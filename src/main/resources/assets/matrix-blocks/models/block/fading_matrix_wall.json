@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/wall_inventory",
+    "textures": {
+      "wall": "matrix-blocks:block/fading_matrix_block"
+    }
+  }

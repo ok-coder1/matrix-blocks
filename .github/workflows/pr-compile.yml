@@ -15,8 +15,8 @@ jobs:
       - name: Setup JDK
         uses: actions/setup-java@v4
         with:
-          java-version: '17'
-          distribution: 'microsoft'
+          java-version: 17
+          distribution: microsoft
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
       - name: Compile
@@ -37,8 +37,8 @@ jobs:
       - name: Setup JDK
         uses: actions/setup-java@v4
         with:
-          java-version: '21'
-          distribution: 'microsoft'
+          java-version: 21
+          distribution: microsoft
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
       - name: Compile

@@ -19,7 +19,7 @@ jobs:
           distribution: microsoft
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
-      - name: Compile
+      - name: Compile Java
         run: ./gradlew compileJava
       - name: Compile client-side Java
         run: ./gradlew compileClientJava
@@ -41,7 +41,7 @@ jobs:
           distribution: microsoft
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
-      - name: Compile
+      - name: Compile Java
         run: ./gradlew compileJava
       - name: Compile client-side Java
         run: ./gradlew compileClientJava

@@ -101,6 +101,7 @@ public class ModBlocks {
             true
     );
     // TODO(@ok-coder1): Fix walls not connecting to each other
+    // labels: todo
     public static final Block FADING_MATRIX_WALL = register(
             new WallBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.CORAL)),
             "fading_matrix_wall",
@@ -108,6 +109,7 @@ public class ModBlocks {
     );
 
     // TODO(@ok-coder1): Add doors for decoration
+    // labels: todo
 
     public static void initialize() {
         Registry.register(Registries.ITEM_GROUP, CUSTOM_ITEM_GROUP_KEY, CUSTOM_ITEM_GROUP);

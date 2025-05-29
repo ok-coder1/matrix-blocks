@@ -102,6 +102,7 @@ public class ModBlocks {
     );
     // TODO(@ok-coder1): Fix walls not connecting to each other
     // labels: todo
+    // Issue URL: https://github.com/ok-coder1/matrix-blocks/issues/4
     public static final Block FADING_MATRIX_WALL = register(
             new WallBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.CORAL)),
             "fading_matrix_wall",
@@ -110,6 +111,7 @@ public class ModBlocks {
 
     // TODO(@ok-coder1): Add doors for decoration
     // labels: todo
+    // Issue URL: https://github.com/ok-coder1/matrix-blocks/issues/3
 
     public static void initialize() {
         Registry.register(Registries.ITEM_GROUP, CUSTOM_ITEM_GROUP_KEY, CUSTOM_ITEM_GROUP);

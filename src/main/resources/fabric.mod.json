@@ -8,8 +8,8 @@
 		"okcoder1"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/matrix-blocks",
+		"sources": "https://github.com/ok-coder1/matrix-blocks"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/matrix-blocks/icon.png",

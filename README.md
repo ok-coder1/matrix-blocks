@@ -15,4 +15,6 @@ Blocks, stairs, slabs, buttons, pressure plates and more! Try it out!
 
 ### NEEDS TO BE INSTALLED ON SERVER AND CLIENT
 
+#### Uses stock images. Thanks to PixilartDude for the [matrix image](https://www.pixilart.com/art/the-matrix-a1673a6e4ffcb1e). I forgot from where I got the fading matrix image, but thanks to the guy who made that!
+
 ###### This was made for Hackcraft XD.

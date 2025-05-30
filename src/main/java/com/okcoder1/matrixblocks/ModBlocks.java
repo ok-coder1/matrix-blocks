@@ -103,6 +103,9 @@ public class ModBlocks {
     // labels: todo, enhancement
     // Issue URL: https://github.com/ok-coder1/matrix-blocks/issues/3
 
+    // TODO: Add datagen
+    // labels: todo, enhancement
+
     public static void initialize() {
         Registry.register(Registries.ITEM_GROUP, CUSTOM_ITEM_GROUP_KEY, CUSTOM_ITEM_GROUP);
         ItemGroupEvents.modifyEntriesEvent(CUSTOM_ITEM_GROUP_KEY).register(itemGroup -> {

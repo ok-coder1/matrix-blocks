@@ -101,6 +101,18 @@ public class ModBlocks {
     // TODO(@ok-coder1): Reimplement walls
     // labels: todo, enhancement
     // Issue URL: https://github.com/ok-coder1/matrix-blocks/issues/4
+    /*
+    public static final Block MATRIX_WALL = register(
+            new WallBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.NETHER_BRICKS)),
+            "matrix_wall",
+            true
+    );
+    public static final Block FADING_MATRIX_WALL = register(
+            new WallBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.CORAL)),
+            "fading_matrix_wall",
+            true
+    );
+    */
 
     // TODO(@ok-coder1): Add doors for decoration
     // labels: todo, enhancement
@@ -124,6 +136,10 @@ public class ModBlocks {
             itemGroup.add(ModBlocks.FADING_MATRIX_PRESSURE_PLATE);
             itemGroup.add(ModBlocks.MATRIX_FENCE);
             itemGroup.add(ModBlocks.MATRIX_FENCE_GATE);
+            /*
+            itemGroup.add(ModBlocks.MATRIX_WALL);
+            itemGroup.add(ModBlocks.FADING_MATRIX_WALL);
+            */
         });
     }
 }

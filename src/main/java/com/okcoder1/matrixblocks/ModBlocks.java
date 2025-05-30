@@ -56,6 +56,8 @@ public class ModBlocks {
             true
     );
 
+    // TODO: Fix slabs not showing if placed on top of each other
+    // labels: todo, bug
     public static final Block MATRIX_SLAB = register(
             new SlabBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.COPPER)),
             "matrix_slab",
@@ -105,6 +107,7 @@ public class ModBlocks {
 
     // TODO: Add datagen
     // labels: todo, enhancement
+    // Issue URL: https://github.com/ok-coder1/matrix-blocks/issues/5
 
     public static void initialize() {
         Registry.register(Registries.ITEM_GROUP, CUSTOM_ITEM_GROUP_KEY, CUSTOM_ITEM_GROUP);

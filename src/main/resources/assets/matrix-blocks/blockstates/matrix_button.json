@@ -25,4 +25,4 @@
       "face=ceiling,facing=south,powered=true": { "model": "matrix-blocks:block/matrix_button_powered", "x": 180 },
       "face=ceiling,facing=north,powered=true": { "model": "matrix-blocks:block/matrix_button_powered", "x": 180, "y": 180 }
     }
-  }
+}

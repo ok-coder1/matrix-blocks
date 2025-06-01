@@ -56,9 +56,6 @@ public class ModBlocks {
             true
     );
 
-    // TODO(@ok-coder1): Fix slabs not showing if placed on top of each other
-    // labels: todo, bug, help wanted
-    // Issue URL: https://github.com/ok-coder1/matrix-blocks/issues/6
     public static final Block MATRIX_SLAB = register(
             new SlabBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.COPPER)),
             "matrix_slab",

@@ -1,5 +1,13 @@
 {
-    "variants": {
-        "": { "model": "matrix-blocks:block/matrix_slab" }
+     "variants": {
+      "type=bottom": {
+        "model": "matrix-blocks:block/matrix_slab"
+      },
+      "type=double": {
+        "model": "matrix-blocks:block/matrix_block"
+      },
+      "type=top": {
+        "model": "matrix-blocks:block/matrix_slab_top"
+      }
     }
 }

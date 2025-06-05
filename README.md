@@ -1,3 +1,5 @@
+<p align="center"><a href="https://modrinth.com/mod/matrix-blocks"><img alt="Matrix Blocks" width=200 src="./img/icon.png"></p></a>
+
 <h1 align="center">Matrix Blocks <br>
   <a href="https://github.com/ok-coder1/matrix-blocks/actions/workflows/build.yml"><img alt="GitHub Actions Build Status" src="https://img.shields.io/github/actions/workflow/status/ok-coder1/matrix-blocks/build.yml"></a>
   <a href="https://modrinth.com/mod/matrix-blocks"><img alt="Modrinth Game Versions" src="https://img.shields.io/modrinth/game-versions/vqVVYkM8"></a>

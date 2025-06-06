@@ -46,7 +46,7 @@ jobs:
       - name: Compile client-side Java
         run: ./gradlew compileClientJava
 
-    compile-java-24:
+  compile-java-24:
     name: Compile on Java 24
     runs-on: ubuntu-latest
     steps:

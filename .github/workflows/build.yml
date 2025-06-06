@@ -59,7 +59,7 @@ jobs:
           path: build/libs/*.jar
           if-no-files-found: error
 
-    build-java-24:
+  build-java-24:
      name: Build on Java 24
      runs-on: ubuntu-latest
      steps:

@@ -7,9 +7,11 @@ name: build
 on: [pull_request, push, workflow_dispatch]
 
 jobs:
-  build-java-17:
-    name: Build on Java 17
+  build-java:
+    name: Build on Java
     runs-on: ubuntu-latest
+    matrix:
+      java-version: [21, 17]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -20,7 +22,7 @@ jobs:
       - name: Setup JDK
         uses: actions/setup-java@v4
         with:
-          java-version: 17
+          java-version: ${{ matrix.java-version }}
           distribution: microsoft
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
@@ -29,32 +31,6 @@ jobs:
       - name: Capture build artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: matrix-blocks-java-17
-          path: build/libs/*.jar
-          if-no-files-found: error
-
-  build-java-21:
-     name: Build on Java 21
-     runs-on: ubuntu-latest
-     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Validate Gradle wrapper
-        uses: gradle/actions/wrapper-validation@v4
-      - name: Setup JDK
-        uses: actions/setup-java@v4
-        with:
-          java-version: 21
-          distribution: microsoft
-      - name: Make Gradle wrapper executable
-        run: chmod +x ./gradlew
-      - name: Build
-        run: ./gradlew build
-      - name: Capture build artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: matrix-blocks-java-21
+          name: matrix-blocks-java-${{ matrix.java-version }}
           path: build/libs/*.jar
           if-no-files-found: error

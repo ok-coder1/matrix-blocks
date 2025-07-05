@@ -2,9 +2,11 @@ name: Compile Java
 on: [pull_request, workflow_dispatch]
 
 jobs:
-  compile-java-17:
-    name: Compile on Java 17
+  compile-java:
+    name: Compile Java
     runs-on: ubuntu-latest
+    matrix:
+      java-version: [21, 17]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -15,7 +17,7 @@ jobs:
       - name: Setup JDK
         uses: actions/setup-java@v4
         with:
-          java-version: 17
+          java-version: ${{ matrix.java-version }}
           distribution: microsoft
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
@@ -23,26 +25,3 @@ jobs:
         run: ./gradlew compileJava
       - name: Compile client-side Java
         run: ./gradlew compileClientJava
-
-  compile-java-21:
-    name: Compile on Java 21
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Validate Gradle wrapper
-        uses: gradle/actions/wrapper-validation@v4
-      - name: Setup JDK
-        uses: actions/setup-java@v4
-        with:
-          java-version: 21
-          distribution: microsoft
-      - name: Make Gradle wrapper executable
-        run: chmod +x ./gradlew
-      - name: Compile Java
-        run: ./gradlew compileJava
-      - name: Compile client-side Java
-        run: ./gradlew compileClientJava
-        

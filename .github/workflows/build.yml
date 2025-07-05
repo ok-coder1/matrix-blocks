@@ -10,8 +10,10 @@ jobs:
   build-java:
     name: Build on Java
     runs-on: ubuntu-latest
-    matrix:
-      java-version: [21, 17]
+    strategy:
+      fail-fast: false
+      matrix:
+        java-version: [21, 17]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

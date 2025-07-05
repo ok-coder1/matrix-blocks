@@ -6,6 +6,10 @@
   <a href="https://github.com/ok-coder1/matrix-blocks/blob/master/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/ok-coder1/matrix-blocks"></a>
   <br>
   <a href="https://modrinth.com/mod/matrix-blocks"><img alt="Modrinth Page" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg"></a>
+  <br>
+  <a href="https://fabricmc.net/"><img alt="Available on Fabric" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg"></a>
+  <br>
+  <a href="https://modrinth.com/mod/fabric-api"><img alt="Requires Fabric API" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/requires/fabric-api_vector.svg"></a>
 </h1>
 
 This mod adds blocks with green 1s and 0s to your game :3. \

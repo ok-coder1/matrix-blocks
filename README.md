@@ -6,6 +6,7 @@
   <a href="https://github.com/ok-coder1/matrix-blocks/blob/master/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/ok-coder1/matrix-blocks"></a>
   <br>
   <a href="https://modrinth.com/mod/matrix-blocks"><img alt="Modrinth Page" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg"></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/matrix-blocks"><img alt="CurseForge Page" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg"></a>
   <br>
   <a href="https://fabricmc.net/"><img alt="Available on Fabric" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg"></a>
   <br>

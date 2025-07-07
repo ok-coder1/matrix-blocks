@@ -1,6 +1,7 @@
 <p align="center"><a href="https://modrinth.com/mod/matrix-blocks"><img alt="Matrix Blocks" width=200 src="./img/icon.png"></p></a>
 
 <h1 align="center">Matrix Blocks <br>
+  <img alt="Hackatime Stats for Matrix Blocks" src="https://hackatime-badge.hackclub.com/U08F95SST0V/matrix-blocks">
   <a href="https://github.com/ok-coder1/matrix-blocks/actions/workflows/build.yml"><img alt="GitHub Actions Build Status" src="https://img.shields.io/github/actions/workflow/status/ok-coder1/matrix-blocks/build.yml"></a>
   <a href="https://modrinth.com/mod/matrix-blocks"><img alt="Modrinth Game Versions" src="https://img.shields.io/modrinth/game-versions/vqVVYkM8"></a>
   <a href="https://github.com/ok-coder1/matrix-blocks/blob/master/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/ok-coder1/matrix-blocks"></a>
